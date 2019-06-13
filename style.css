@@ -1,0 +1,29 @@
+h1 {
+ color:#ff3333;
+ font-size: 3em;
+ border-bottom-color: 2px #0059b2;
+
+}
+body {
+    background-color: lightblue;
+}
+
+.ing {
+    color:#0059b3;
+}
+
+.met {
+    color:#000033;
+}
+
+img {
+    max-width: 100%;
+    height: auto; 
+    border:2px solid #ddd;
+}
+
+@media only screen and (max-width: 500px) {
+    img {
+      width: 100%;
+    }
+  }
